@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "OpenGLES_2_1ViewController.h"
-#import "OpenGLES_2_3ViewController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +20,7 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [OpenGLES_2_1ViewController new];
+    self.window.rootViewController = [[ViewController alloc]init];
     [self.window makeKeyAndVisible];
     return YES;
 }

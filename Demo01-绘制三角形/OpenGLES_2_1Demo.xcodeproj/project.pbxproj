@@ -7,28 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB67F32A1EEB98F900D87B3F /* AGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB67F3291EEB98F900D87B3F /* AGLKView.m */; };
-		EB98E2E01EEE6B63003979F6 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = EB98E2DF1EEE6B63003979F6 /* AGLKContext.m */; };
-		EB98E2E31EEE6E90003979F6 /* AGLKVertextAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB98E2E21EEE6E90003979F6 /* AGLKVertextAttribArrayBuffer.m */; };
-		EB98E2E61EEE8A82003979F6 /* OpenGLES_2_3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB98E2E51EEE8A82003979F6 /* OpenGLES_2_3ViewController.m */; };
 		EBF0A0291EEA4C73006CCEBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF0A0281EEA4C73006CCEBA /* main.m */; };
 		EBF0A02C1EEA4C73006CCEBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF0A02B1EEA4C73006CCEBA /* AppDelegate.m */; };
 		EBF0A02F1EEA4C73006CCEBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF0A02E1EEA4C73006CCEBA /* ViewController.m */; };
 		EBF0A0321EEA4C73006CCEBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF0A0301EEA4C73006CCEBA /* Main.storyboard */; };
 		EBF0A0341EEA4C73006CCEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF0A0331EEA4C73006CCEBA /* Assets.xcassets */; };
 		EBF0A0371EEA4C73006CCEBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF0A0351EEA4C73006CCEBA /* LaunchScreen.storyboard */; };
-		EBF0A0401EEA4EDE006CCEBA /* OpenGLES_2_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF0A03F1EEA4EDE006CCEBA /* OpenGLES_2_1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EB67F3281EEB98F900D87B3F /* AGLKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKView.h; sourceTree = "<group>"; };
-		EB67F3291EEB98F900D87B3F /* AGLKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKView.m; sourceTree = "<group>"; };
-		EB98E2DE1EEE6B63003979F6 /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
-		EB98E2DF1EEE6B63003979F6 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
-		EB98E2E11EEE6E90003979F6 /* AGLKVertextAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertextAttribArrayBuffer.h; sourceTree = "<group>"; };
-		EB98E2E21EEE6E90003979F6 /* AGLKVertextAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertextAttribArrayBuffer.m; sourceTree = "<group>"; };
-		EB98E2E41EEE8A82003979F6 /* OpenGLES_2_3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES_2_3ViewController.h; sourceTree = "<group>"; };
-		EB98E2E51EEE8A82003979F6 /* OpenGLES_2_3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLES_2_3ViewController.m; sourceTree = "<group>"; };
 		EBF0A0241EEA4C73006CCEBA /* OpenGLES_2_1Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLES_2_1Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF0A0281EEA4C73006CCEBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBF0A02A1EEA4C73006CCEBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,8 +26,6 @@
 		EBF0A0331EEA4C73006CCEBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBF0A0361EEA4C73006CCEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBF0A0381EEA4C73006CCEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBF0A03E1EEA4EDE006CCEBA /* OpenGLES_2_1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES_2_1ViewController.h; sourceTree = "<group>"; };
-		EBF0A03F1EEA4EDE006CCEBA /* OpenGLES_2_1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLES_2_1ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,18 +60,8 @@
 			children = (
 				EBF0A02A1EEA4C73006CCEBA /* AppDelegate.h */,
 				EBF0A02B1EEA4C73006CCEBA /* AppDelegate.m */,
-				EB98E2E11EEE6E90003979F6 /* AGLKVertextAttribArrayBuffer.h */,
-				EB98E2E21EEE6E90003979F6 /* AGLKVertextAttribArrayBuffer.m */,
-				EB98E2DE1EEE6B63003979F6 /* AGLKContext.h */,
-				EB98E2DF1EEE6B63003979F6 /* AGLKContext.m */,
-				EB67F3281EEB98F900D87B3F /* AGLKView.h */,
-				EB67F3291EEB98F900D87B3F /* AGLKView.m */,
 				EBF0A02D1EEA4C73006CCEBA /* ViewController.h */,
 				EBF0A02E1EEA4C73006CCEBA /* ViewController.m */,
-				EBF0A03E1EEA4EDE006CCEBA /* OpenGLES_2_1ViewController.h */,
-				EBF0A03F1EEA4EDE006CCEBA /* OpenGLES_2_1ViewController.m */,
-				EB98E2E41EEE8A82003979F6 /* OpenGLES_2_3ViewController.h */,
-				EB98E2E51EEE8A82003979F6 /* OpenGLES_2_3ViewController.m */,
 				EBF0A0301EEA4C73006CCEBA /* Main.storyboard */,
 				EBF0A0331EEA4C73006CCEBA /* Assets.xcassets */,
 				EBF0A0351EEA4C73006CCEBA /* LaunchScreen.storyboard */,
@@ -176,13 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB98E2E01EEE6B63003979F6 /* AGLKContext.m in Sources */,
-				EB98E2E31EEE6E90003979F6 /* AGLKVertextAttribArrayBuffer.m in Sources */,
-				EB67F32A1EEB98F900D87B3F /* AGLKView.m in Sources */,
-				EBF0A0401EEA4EDE006CCEBA /* OpenGLES_2_1ViewController.m in Sources */,
 				EBF0A02F1EEA4C73006CCEBA /* ViewController.m in Sources */,
 				EBF0A02C1EEA4C73006CCEBA /* AppDelegate.m in Sources */,
-				EB98E2E61EEE8A82003979F6 /* OpenGLES_2_3ViewController.m in Sources */,
 				EBF0A0291EEA4C73006CCEBA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
