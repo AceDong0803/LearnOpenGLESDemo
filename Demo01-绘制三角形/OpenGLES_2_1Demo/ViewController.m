@@ -53,6 +53,8 @@ static const sceneVertex vertices[] = {
     glGenBuffers(1, &vertextBufferID);
     glBindBuffer(GL_ARRAY_BUFFER, vertextBufferID); //绑定指定标识符的缓存为当前缓存
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+    
+ 
 }
 
 
