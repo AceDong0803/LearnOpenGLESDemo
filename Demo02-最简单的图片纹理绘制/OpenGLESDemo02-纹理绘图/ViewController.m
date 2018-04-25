@@ -79,14 +79,15 @@ static const SceneVertex vertices[] = {
     
     //通过图片数据产生纹理缓存
     //GLKTextureInfo封装了纹理缓存的信息，包括是否包含MIP贴图
-    GLKTextureInfo *textureInfo = [GLKTextureLoader textureWithCGImage:imageRef options:nil error:NULL];
+    NSDictionary* options = [NSDictionary dictionaryWithObjectsAndKeys:@(1), GLKTextureLoaderOriginBottomLeft, nil];
+    GLKTextureInfo *textureInfo = [GLKTextureLoader textureWithCGImage:imageRef options:options error:NULL];
     self.baseEffect.texture2d0.name = textureInfo.name;
     self.baseEffect.texture2d0.target = textureInfo.target;
 }
 
 
 - (void)glkView:(GLKView *)view drawInRect:(CGRect)rect{
-    //清除颜色
+    //清除背景色
     glClearColor(0.0f,0.0f,0.0f,1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     [self.baseEffect prepareToDraw];
