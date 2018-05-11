@@ -114,13 +114,16 @@ static GLKVector3 movementVectors[3] = {
 
 
 - (void)updateTextureParameters{
-    [self.baseEffect.texture2d0 aglkSetParameter:GL_TEXTURE_WRAP_S value:(self.shouldRepeatTexture) ? GL_REPEAT : GL_CLAMP_TO_EDGE];
+    
+    
     
     glBindTexture(self.baseEffect.texture2d0.target, self.baseEffect.texture2d0.name);
-    
     glTexParameterf(self.baseEffect.texture2d0.target, GL_TEXTURE_WRAP_S, (self.shouldRepeatTexture) ? GL_REPEAT : GL_CLAMP_TO_EDGE);
-    
     glTexParameterf(self.baseEffect.texture2d0.target, GL_TEXTURE_MAG_FILTER, (self.shouldUseLineFilter) ? GL_LINEAR : GL_NEAREST);
+    
+    
+//    //Category设置和上面代码一致
+//    [self.baseEffect.texture2d0 aglkSetParameter:GL_TEXTURE_WRAP_S value:(self.shouldRepeatTexture) ? GL_REPEAT : GL_CLAMP_TO_EDGE];
 }
 
 - (void)updateAnimateVertexPositions{
