@@ -16,6 +16,10 @@
 		7612149520A2CBF600A1FDD2 /* OpenGLES_3_2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7612149320A2CBF500A1FDD2 /* OpenGLES_3_2ViewController.m */; };
 		7612149620A2CBF600A1FDD2 /* OpenGLES_3_2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7612149420A2CBF600A1FDD2 /* OpenGLES_3_2ViewController.xib */; };
 		7612149820A2CEAA00A1FDD2 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7612149720A2CEAA00A1FDD2 /* grid.png */; };
+		76B4B74720AACC78000F8BB5 /* OpenGLBlendTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B4B74620AACC78000F8BB5 /* OpenGLBlendTestViewController.m */; };
+		76B4B74A20AAD017000F8BB5 /* beetle.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B4B74820AAD017000F8BB5 /* beetle.png */; };
+		76B4B74B20AAD017000F8BB5 /* leaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = 76B4B74920AAD017000F8BB5 /* leaves.gif */; };
+		76B4B74E20AAD3CB000F8BB5 /* OpenGLMultitextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B4B74D20AAD3CB000F8BB5 /* OpenGLMultitextureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,12 @@
 		7612149320A2CBF500A1FDD2 /* OpenGLES_3_2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLES_3_2ViewController.m; sourceTree = "<group>"; };
 		7612149420A2CBF600A1FDD2 /* OpenGLES_3_2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenGLES_3_2ViewController.xib; sourceTree = "<group>"; };
 		7612149720A2CEAA00A1FDD2 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		76B4B74520AACC78000F8BB5 /* OpenGLBlendTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLBlendTestViewController.h; sourceTree = "<group>"; };
+		76B4B74620AACC78000F8BB5 /* OpenGLBlendTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLBlendTestViewController.m; sourceTree = "<group>"; };
+		76B4B74820AAD017000F8BB5 /* beetle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beetle.png; sourceTree = "<group>"; };
+		76B4B74920AAD017000F8BB5 /* leaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leaves.gif; sourceTree = "<group>"; };
+		76B4B74C20AAD3CB000F8BB5 /* OpenGLMultitextureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLMultitextureViewController.h; sourceTree = "<group>"; };
+		76B4B74D20AAD3CB000F8BB5 /* OpenGLMultitextureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLMultitextureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +76,14 @@
 			isa = PBXGroup;
 			children = (
 				7612149720A2CEAA00A1FDD2 /* grid.png */,
+				76B4B74820AAD017000F8BB5 /* beetle.png */,
+				76B4B74920AAD017000F8BB5 /* leaves.gif */,
 				7612147C20A2C7D800A1FDD2 /* AppDelegate.h */,
 				7612147D20A2C7D800A1FDD2 /* AppDelegate.m */,
+				76B4B74520AACC78000F8BB5 /* OpenGLBlendTestViewController.h */,
+				76B4B74620AACC78000F8BB5 /* OpenGLBlendTestViewController.m */,
+				76B4B74C20AAD3CB000F8BB5 /* OpenGLMultitextureViewController.h */,
+				76B4B74D20AAD3CB000F8BB5 /* OpenGLMultitextureViewController.m */,
 				7612149220A2CBF500A1FDD2 /* OpenGLES_3_2ViewController.h */,
 				7612149320A2CBF500A1FDD2 /* OpenGLES_3_2ViewController.m */,
 				7612149420A2CBF600A1FDD2 /* OpenGLES_3_2ViewController.xib */,
@@ -143,8 +159,10 @@
 				7612148920A2C7D900A1FDD2 /* LaunchScreen.storyboard in Resources */,
 				7612149820A2CEAA00A1FDD2 /* grid.png in Resources */,
 				7612148620A2C7D900A1FDD2 /* Assets.xcassets in Resources */,
+				76B4B74B20AAD017000F8BB5 /* leaves.gif in Resources */,
 				7612149620A2CBF600A1FDD2 /* OpenGLES_3_2ViewController.xib in Resources */,
 				7612148420A2C7D900A1FDD2 /* Main.storyboard in Resources */,
+				76B4B74A20AAD017000F8BB5 /* beetle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,9 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7612148120A2C7D900A1FDD2 /* ViewController.m in Sources */,
+				76B4B74E20AAD3CB000F8BB5 /* OpenGLMultitextureViewController.m in Sources */,
 				7612148C20A2C7D900A1FDD2 /* main.m in Sources */,
 				7612149520A2CBF600A1FDD2 /* OpenGLES_3_2ViewController.m in Sources */,
 				7612147E20A2C7D800A1FDD2 /* AppDelegate.m in Sources */,
+				76B4B74720AACC78000F8BB5 /* OpenGLBlendTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2347ZTV6T;
 				INFOPLIST_FILE = "纹理取样循环多重纹理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ACE.----------";
@@ -306,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2347ZTV6T;
 				INFOPLIST_FILE = "纹理取样循环多重纹理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ACE.----------";

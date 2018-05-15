@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "OpenGLES_3_2ViewController.h"
+#import "OpenGLBlendTestViewController.h"
+#import "OpenGLMultitextureViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +23,8 @@
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[OpenGLES_3_2ViewController alloc]initWithNibName:@"OpenGLES_3_2ViewController" bundle:nil];
+//    self.window.rootViewController = [[OpenGLBlendTestViewController alloc]init];
+//     self.window.rootViewController = [[OpenGLMultitextureViewController alloc]init];
     [self.window makeKeyWindow];
     return YES;
 }
