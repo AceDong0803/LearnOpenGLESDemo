@@ -1,15 +1,13 @@
 //
 //  AppDelegate.m
-//  纹理取样循环多重纹理
+//  灯光
 //
-//  Created by AnDong on 2018/5/9.
+//  Created by AnDong on 2018/5/30.
 //  Copyright © 2018年 AnDong. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "OpenGLES_3_2ViewController.h"
-#import "OpenGLBlendTestViewController.h"
-#import "OpenGLMultitextureViewController.h"
+#import "OpenGLES_LightDemoViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,12 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[OpenGLES_3_2ViewController alloc]initWithNibName:@"OpenGLES_3_2ViewController" bundle:nil];
-//    self.window.rootViewController = [[OpenGLBlendTestViewController alloc]init];
-//     self.window.rootViewController = [[OpenGLMultitextureViewController alloc]init];
+    self.window.rootViewController = [[OpenGLES_LightDemoViewController alloc]initWithNibName:@"OpenGLES_LightDemoViewController" bundle:nil];
     [self.window makeKeyAndVisible];
     return YES;
 }

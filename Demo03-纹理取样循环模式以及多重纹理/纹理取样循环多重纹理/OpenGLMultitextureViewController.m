@@ -43,6 +43,7 @@ static const SceneVertex vertices[] = {
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
     //新建OpenGLES 上下文
     GLKView *view = (GLKView *)self.view;
     view.context = [[EAGLContext alloc]initWithAPI: kEAGLRenderingAPIOpenGLES2];
