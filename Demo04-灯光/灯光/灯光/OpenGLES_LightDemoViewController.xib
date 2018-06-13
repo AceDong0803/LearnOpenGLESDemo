@@ -49,7 +49,7 @@
                         <action selector="shouldDrawNormals:" destination="-1" eventType="valueChanged" id="tET-aK-FhP"/>
                     </connections>
                 </switch>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Use Face Normals:" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="hrZ-XX-sTk">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="使用平面向量" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="hrZ-XX-sTk">
                     <rect key="frame" x="8" y="43" width="148" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="ZDj-nD-HYL"/>
@@ -60,7 +60,7 @@
                     <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                     <color key="shadowColor" red="0.69021739130000004" green="0.69021739130000004" blue="0.69021739130000004" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Draw Normals:" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="hYn-n5-IRx">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="绘制法向量" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="hYn-n5-IRx">
                     <rect key="frame" x="6" y="541" width="150" height="22"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="22" id="Lyl-HE-EKk"/>
