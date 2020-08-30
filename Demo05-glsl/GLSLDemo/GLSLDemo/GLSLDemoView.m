@@ -168,6 +168,25 @@
 }
 
 
+- (void)dealloc
+{
+    if (self.mColorFrameBuffer) {
+        glDeleteBuffers(1, &_mColorFrameBuffer);
+        self.mColorFrameBuffer = 0;
+    }
+    
+    if (self.mColorRenderBuffer) {
+        glDeleteBuffers(1, &_mColorRenderBuffer);
+        self.mColorRenderBuffer = 0;
+    }
+    
+    if ([EAGLContext currentContext] == self.mContext) {
+        [EAGLContext setCurrentContext:nil];
+    }
+    
+}
+
+
 
 
 
