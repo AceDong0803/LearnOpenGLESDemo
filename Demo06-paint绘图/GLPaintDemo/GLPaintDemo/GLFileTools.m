@@ -2,7 +2,7 @@
 //  GLFileTools.m
 //  GLPaintDemo
 //
-//  Created by liuchuandong on 2020/9/2.
+//  Created by AceDong on 2020/9/2.
 //  Copyright © 2020 AceDong. All rights reserved.
 //
 
